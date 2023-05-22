@@ -1,0 +1,132 @@
+
+#top {
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(238, 30, 47);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 30px 50px;
+    
+
+
+}
+div>input {
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 10px;
+    width: 300px;
+    margin-left: -100px;
+    border: none;
+    
+}
+div>button {
+    margin-top: 20px;
+    font-size: 12px;
+    width: 100px;
+    padding: 10px;
+    margin-left: -10px;
+    background-color: #4bf;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+#top>.right>div {
+    display: flex;
+    padding-right: 40px;
+    justify-content: flex-end;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    gap: 10px;
+    cursor: pointer;
+    
+
+}
+#navbar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    grid-template-rows: repeat(1,10px);
+    font-size: 12px;
+    column-gap: 10px;
+    padding: 15px 10px 15px 40px;
+    background-color: #258;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    align-items: center;
+    
+}
+#navbar>div {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#navbar>div:hover {
+    cursor: pointer;
+    background-color: rgb(238, 30, 47);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    background-color: #258;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,400px);
+    padding-left: 60px;
+    color: white;
+}
+p+h3 {
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+#footer+div {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    background-color: #258;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    font-weight: bold;
+    padding-left: 60px;
+    gap: 210px;
+}
+div>h3+img {
+    width: 25%;
+}
+#footer>.col1,.col2,.col3,.col4:hover {
+    cursor: pointer;
+}
+#navbar+.img {
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+h2 {
+    margin-left: 20px;
+}
+#prod {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    gap: 30px;
+}
+#prod>div>img {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
